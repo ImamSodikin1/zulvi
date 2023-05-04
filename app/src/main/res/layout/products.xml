@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hot sale"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Semua"
+            android:textSize="15sp"
+            android:layout_marginLeft="160dp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/tas1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tas Keren Cok"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="@font/poppinsregular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.200.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/tas2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tas Keren Cok"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/poppinsregular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.200.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/tas3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tas Keren Cok"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/poppinsregular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.200.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/tas4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tas Keren Cok"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/poppinsregular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.200.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/tas5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tas Keren Cok"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/poppinsregular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.200.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/tas6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tas Keren Cok"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/poppinsregular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.200.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

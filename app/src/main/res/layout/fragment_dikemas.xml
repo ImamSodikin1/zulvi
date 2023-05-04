@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DikemasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_putih_radius"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blacksemu"
+            android:text="Sedang Dikemas"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginLeft="240dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_putih_radius"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <!-- gambar 1       -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:background="@drawable/bg_putih_radius"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/tas3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Tas Mama Dede"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Rp.200.000"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tas Bunda Corla"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="x2"
+                   android:textColor="@color/blacksemu"
+                   android:fontFamily="@font/poppinsregular"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="R.200.000"
+                   android:layout_marginLeft="20dp"
+                   android:textColor="@color/blacksemu"
+                   android:fontFamily="@font/poppinsmedium"/>
+           </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Pesanan"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsmedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.400.000"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsmedium"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
